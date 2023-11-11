@@ -91,7 +91,7 @@ export default function Scene({mediaHotspot, setMediaHotspot}) {
                 showZoomCtrl={false}
                 mouseZoom={true}
                 orientationOnByDefault={false}
-                hotspotDebug={false}
+                hotspotDebug={true}
             >
                 {Object.values(scene.hotSpot).map((element, i) => (hotSpots(element, i)))}
             </Pannellum>

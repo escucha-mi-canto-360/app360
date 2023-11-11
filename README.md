@@ -13,3 +13,5 @@ Foto oringal | renombre
  PANO_pozoazul_ingreso_al_lago | pano-dos
  PANO_Girardot_vista_poso-azul_7 | pano-uno
  A3 | B3 
+
+
