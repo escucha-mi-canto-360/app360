@@ -20,7 +20,6 @@ export default function Scene({mediaHotspot, setMediaHotspot}) {
     const context = useContext(RecorridosContext);
 
     const addMediaHotspot = (data) =>{
-        console.log(data.images)
         context.setDataCurios([context.dataCurios, data.dataCurious])
         context.setDataMediaHostpot([context.dataMediaHostpot, data.images])
     }
@@ -91,7 +90,7 @@ export default function Scene({mediaHotspot, setMediaHotspot}) {
                 showZoomCtrl={false}
                 mouseZoom={true}
                 orientationOnByDefault={false}
-                hotspotDebug={true}
+                hotspotDebug={false}
             >
                 {Object.values(scene.hotSpot).map((element, i) => (hotSpots(element, i)))}
             </Pannellum>

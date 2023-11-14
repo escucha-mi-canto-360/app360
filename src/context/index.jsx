@@ -4,7 +4,6 @@ export const RecorridosContext = createContext()
 
 export const RecorridosProvider = ({children}) =>{
 
-  // Shopping Cart · Add products to cart
   const [dataCurios, setDataCurios] = useState({})
   const [dataMediaHostpot, setDataMediaHostpot] = useState([])
   

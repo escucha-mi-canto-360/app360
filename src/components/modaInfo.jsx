@@ -18,9 +18,8 @@ import {
 import { RecorridosContext } from "./../context";
 
 import { DataCurios } from "./dataCurios";
-import ImageCarousel from "./carrusel";
 import { Video } from "./video";
-import {CarouselTransition} from './CarouselTransition'
+import { CarouselTransition } from "./CarouselTransition";
 
 // eslint-disable-next-line react/prop-types
 const ModaInfo = ({ mediaHotspot }) => {
@@ -36,9 +35,6 @@ const ModaInfo = ({ mediaHotspot }) => {
 
   //const image = imagesData.map((objeto) => objeto);
 
-  console.log('Imagenes',imagesData)
-  //console.log(image)
-
   function eliminarElementosVacios(arr) {
     return arr.filter((elemento) => {
       if (Array.isArray(elemento)) {
@@ -46,17 +42,12 @@ const ModaInfo = ({ mediaHotspot }) => {
         return eliminarElementosVacios(elemento).length > 0;
       } else {
         // Filtramos elementos que no sean arrays vacíos
-        return elemento !== '' && elemento !== null && elemento !== undefined;
+        return elemento !== "" && elemento !== null && elemento !== undefined;
       }
     });
   }
   // Llama a la función para eliminar elementos vacíos
   const images = eliminarElementosVacios(imagesData);
-
-
-  console.log('Imagenes',images)
-
-
 
   return (
     <Card
@@ -111,8 +102,8 @@ const ModaInfo = ({ mediaHotspot }) => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel>
-                 {/*  <ImageCarousel images={images} /> */}
-                  <CarouselTransition images={images}/>
+                  {/*  <ImageCarousel images={images} /> */}
+                  <CarouselTransition images={images} />
                 </AccordionPanel>
               </AccordionItem>
               {videoId ? (
@@ -126,15 +117,11 @@ const ModaInfo = ({ mediaHotspot }) => {
                     </AccordionButton>
                   </h2>
                   <AccordionPanel>
-                    <Video videoId={videoId}/>
+                    <Video videoId={videoId} />
                   </AccordionPanel>
                 </AccordionItem>
-              ) : (
-                null
-              )}
-
+              ) : null}
             </Accordion>
-            
           </Box>
         </CardBody>
         <CardFooter></CardFooter>

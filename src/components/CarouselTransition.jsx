@@ -1,7 +1,5 @@
 import './../styles/swiper.css'
 
-import { Image } from '@chakra-ui/react'
-
 export function CarouselTransition({ images }) {
 
   return (
