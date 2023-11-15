@@ -4,7 +4,7 @@
 const Scenes = {
   panoOne: {
     id: 1,
-    title: "Girardor Cundinamarca 4°18'44.7\"N 74°48'02.0\"W",
+    title: "Girardot-Cundinamarca 4°18'44.7\"N 74°48'02.0\"W",
     image: "../Entorno_uno/pano-girardot-vista-poso-azul.jpg",
     soundEscena: "../Entorno_uno/sonido1-entorno1.mp3",
     pitch: -11,
@@ -114,8 +114,7 @@ const Scenes = {
             },
           ],
           images: [
-            { id: 1, imagen: "../Entorno_uno/Hospot_dos/Foto1-ave2.jpg" },
-            { id: 2, imagen: "../Entorno_uno/Hospot_dos/Foto2-ave2.jpg" },
+            { id: 1, imagen: "../Entorno_uno/Hospot_dos/Foto1-ave2.jpg" }
           ],
         },
       },
@@ -127,45 +126,20 @@ const Scenes = {
         cssClass: "hotSpotElement",
         icono: "../Entorno_uno/Hospot3/icono-cantera1.png",
         media: {
-          title: "Bichofué Gritón",
-          subTitle: "Pitangus Sulphuratus",
+          title: "Cantera California 4°16'37.2\"N 74°51'08.6\"W",
+          subTitle: "",
           imageIntial: "../Entorno_uno/Hospot3/foto_icono_cantera1.jpg",
           dataCurious: [
             {
               id: 1,
-              info: "Plumaje llamativo: El turpial ventrinegro tiene un plumaje vibrante y llamativo. Su parte superior es de color negro brillante, mientras que su parte inferior es de un color amarillo intenso. Esta combinación de colores le confiere un aspecto llamativo y fácilmente reconocible.",
-            },
-            {
-              id: 2,
-              info: "Distribución geográfica: Esta especie se encuentra en una amplia variedad de hábitats en América Central y América del Sur, desde el norte de México hasta Brasil y el norte de Argentina. Son aves migratorias y pueden desplazarse a lo largo de su rango de distribución según la estación.",
-            },
-            {
-              id: 3,
-              info: "Vocalización distintiva: Los turpiales ventrinegros son conocidos por sus cantos y vocalizaciones variadas. Emiten una serie de gorjeos, trinos y silbidos que varían según la región. Sus vocalizaciones son una parte importante de su comportamiento reproductivo y de su comunicación en general.",
-            },
-            {
-              id: 4,
-              info: "Comportamiento forrajeador: Estas aves son omnívoras y se alimentan de una amplia gama de alimentos, incluyendo insectos, frutas y néctar. A menudo se les puede ver buscando insectos en el follaje de los árboles o alimentándose de frutas en los árboles y arbustos.",
-            },
-            {
-              id: 5,
-              info: "Nidos colgantes: Al igual que muchas otras especies de turpiales, el turpial ventrinegro construye nidos colgantes. Estos nidos son elaborados y tejidos, y suelen ser colgados en las ramas de árboles o arbustos. La hembra es la principal responsable de construir el nido.",
-            },
-            {
-              id: 6,
-              info: "Interacción con otras especies: Estas aves pueden interactuar de manera agresiva con otras especies de aves, especialmente cuando defienden sus territorios o nidos. Son conocidas por defender sus nidos de posibles depredadores o intrusos.",
-            },
-            {
-              id: 7,
-              info: "Importancia cultural: En algunos países de América Latina, el turpial ventrinegro es considerado un símbolo cultural y es el ave nacional de Venezuela. Su canto melodioso y su plumaje atractivo lo convierten en una especie apreciada por su belleza y su importancia en la cultura local.",
+              info: "La \"Cantera California\" en Giardot, Cundinamarca, Colombia, es una cantera local para la operación de extracción de materiales de construcción sin ser ampliamente reconocida a nivel nacional e internacional.",
             },
           ],
           images: [
-            { id: 1, imagen: "../Entorno_uno/Hospot3/foto1-cantera1.jpg" },
-            { id: 2, imagen: "../Entorno_uno/Hospot3/foto2-cantera1.png" },
-            { id: 3, imagen: "../Entorno_uno/Hospot3/foto3-cantera1.png" },
-            { id: 4, imagen: "../Entorno_uno/Hospot3/foto4-cantera1.jpg" },
-            { id: 5, imagen: "../Entorno_uno/Hospot3/foto5-cantera1.jpg" },
+            { id: 1, imagen: "../Entorno_uno/Hospot3/foto2-cantera1.png" },
+            { id: 2, imagen: "../Entorno_uno/Hospot3/foto3-cantera1.png" },
+            { id: 3, imagen: "../Entorno_uno/Hospot3/foto4-cantera1.jpg" },
+            { id: 4, imagen: "../Entorno_uno/Hospot3/foto5-cantera1.jpg" }, //eliminar pendiente
           ],
           videoId: "n_z1WVpxnjM",
         },
@@ -750,7 +724,7 @@ const Scenes = {
           ],
           images: [
             { id: 1, imagen: "../Entorno_tres/Hospot5/Foto1-ave12.jpg" },
-            { id: 2, imagen: "../Entorno_tres/Hospot5/Foto3-ave12.jpg" },
+            { id: 2, imagen: "../Entorno_tres/Hospot5/Foto2-ave12.jpg" },
             { id: 3, imagen: "../Entorno_tres/Hospot5/Foto3-ave12.jpg" }
           ],
         },
@@ -783,7 +757,7 @@ const Scenes = {
           ],
           images: [
             { id: 1, imagen: "../Entorno_tres/Hospot6/Foto1-pozoazul1.png" },
-            { id: 2, imagen: "../Entorno_tres/Hospot6/Foto2-pozoazul1.jpg" },
+            { id: 2, imagen: "../Entorno_tres/Hospot6/Foto2-pozoazul1.png" },
             { id: 3, imagen: "../Entorno_tres/Hospot6/Foto3-pozoazul1.jpg" }
           ],
           videoId: "YmHGY41-ZFw",
@@ -813,13 +787,13 @@ const Scenes = {
         cssClass: "hotSpotElement",
         icono: "../Entorno_cuatro/Hospot2/icono-cantera2.png",
         media: {
-          title: "Cantera La Estrella Ricaurte",
-          subTitle: "",
+          title: "Cantera La Estrella Ricaurte-Cun",
+          subTitle: "4°15'15.3\"N 74°44'23.0\"W",
           imageIntial: "../Entorno_cuatro/Hospot2/foto_icono_cantera2.png",
           dataCurious: [
             {
               "id": "1",
-              "info": "La \"Cantera La Estrella\" en Giardot, Cundinamarca, Colombia, es una cantera local para la operación de extracción de materiales de construcción sin ser ampliamente reconocida a nivel nacional e internacional."
+              "info": "La \"Cantera La Estrella\" en Ricaurte, Cundinamarca, Colombia, es una cantera local para la operación de extracción de materiales de construcción sin ser ampliamente reconocida a nivel nacional e internacional."
           }
           ],
           images: [
@@ -1709,8 +1683,8 @@ const Scenes = {
       hostpot2: {
         id: 2,
         type: "custom",
-        pitch: 0.44254717903906654,
-        yaw: 106.32571350538996,
+        pitch: 2.319044080379619,
+        yaw: 32.25859825052443,
         //Pitch: 0.44254717903906654, Yaw: 106.32571350538996, Center Pitch: -21.143705575095645, Center Yaw: 85.22866172883325, HFOV: 110
         cssClass: "hotSpotElement",
         icono: "../Entorno_ocho/Hospot2/icono-problem_yulo.png",
@@ -1733,9 +1707,8 @@ const Scenes = {
             }
           ],
           images: [
-            { id: 1, imagen: "../Entorno_ocho/Hospot2/Foto1-problem_yulo.png" },
-            { id: 2, imagen: "../Entorno_ocho/Hospot2/Foto2-problem_yulo.jpg" },
-            { id: 3, imagen: "../Entorno_ocho/Hospot2/Foto3-problem_yulo.jpg" },
+            { id: 1, imagen: "../Entorno_ocho/Hospot2/Foto2-problem_yulo.png" },
+            { id: 2, imagen: "../Entorno_ocho/Hospot2/Foto3-problem_yulo.png" },
           ],
           videoId: "1xADa5gf6Mg",
         },
@@ -1743,9 +1716,8 @@ const Scenes = {
       hostpot3: {
         id: 3,
         type: "custom",
-        pitch: 2.319044080379619,
-        yaw: 32.25859825052443,
-        //Pitch: 0.44254717903906654, Yaw: 106.32571350538996, Center Pitch: -21.143705575095645, Center Yaw: 85.22866172883325, HFOV: 110
+        pitch: 0.44254717903906654,
+        yaw: 106.32571350538996,
         cssClass: "hotSpotElement",
         icono: "../Entorno_ocho/Hospot3/icono-yulo.png",
         media: {
