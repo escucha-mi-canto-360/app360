@@ -1,6 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Escucha mi canto App recorrido 360°
 
 Currently, two official plugins are available:
 

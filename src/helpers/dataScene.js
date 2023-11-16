@@ -677,13 +677,13 @@ const Scenes = {
         cssClass: "hotSpotElement",
         icono: "../Entorno_tres/Hospot5/icono-ave12.png",
         media: {
-          title: "Sicalis Coronado",
+          title: "Sicalis Colorado",
           subTitle: "Sicalis Flaveola 14cm",
           imageIntial: "../Entorno_tres/Hospot5/foto_icono_Ave12.jpg",
           dataCurious: [
             {
               "id": "1",
-              "info": "Dimorfismo sexual: Los sicalis coronado exhiben un marcado dimorfismo sexual en su plumaje. Los machos suelen tener un plumaje de color amarillo brillante en la parte superior y en las alas, con una cabeza negra y una máscara facial negra distintiva. Las hembras, en cambio, tienen un plumaje más apagado, con tonos de verde oliva en lugar de amarillo y carecen de la máscara negra."
+              "info": "Dimorfismo sexual: Los sicalis colorado exhiben un marcado dimorfismo sexual en su plumaje. Los machos suelen tener un plumaje de color amarillo brillante en la parte superior y en las alas, con una cabeza negra y una máscara facial negra distintiva. Las hembras, en cambio, tienen un plumaje más apagado, con tonos de verde oliva en lugar de amarillo y carecen de la máscara negra."
             },
             {
                 "id": "2",
@@ -699,7 +699,7 @@ const Scenes = {
             },
             {
                 "id": "5",
-                "info": "Alimentación granívora: La dieta de los sicalis coronado consiste principalmente en semillas y granos, como los de las plantas de la familia Asteraceae y Poaceae. También pueden consumir pequeños insectos en menor medida."
+                "info": "Alimentación granívora: La dieta de los sicalis colorado consiste principalmente en semillas y granos, como los de las plantas de la familia Asteraceae y Poaceae. También pueden consumir pequeños insectos en menor medida."
             },
             {
                 "id": "6",
@@ -707,15 +707,15 @@ const Scenes = {
             },
             {
                 "id": "7",
-                "info": "Caza de insectos: Aunque su dieta principal es granívora, durante la temporada de reproducción, los sicalis coronado complementan su alimentación con insectos para proporcionar una fuente de proteína a sus crías."
+                "info": "Caza de insectos: Aunque su dieta principal es granívora, durante la temporada de reproducción, los sicalis colorado complementan su alimentación con insectos para proporcionar una fuente de proteína a sus crías."
             },
             {
                 "id": "8",
-                "info": "Migración estacional: Algunas poblaciones de sicalis coronado son migratorias y se desplazan en busca de condiciones climáticas más favorables y de alimento durante ciertas épocas del año."
+                "info": "Migración estacional: Algunas poblaciones de sicalis colorado son migratorias y se desplazan en busca de condiciones climáticas más favorables y de alimento durante ciertas épocas del año."
             },
             {
                 "id": "9",
-                "info": "Aves apreciadas en avicultura: Debido a su colorido y canto agradable, los sicalis coronado son apreciados en la avicultura y a menudo son mantenidos como mascotas en jaulas."
+                "info": "Aves apreciadas en avicultura: Debido a su colorido y canto agradable, los sicalis colorado son apreciados en la avicultura y a menudo son mantenidos como mascotas en jaulas."
             },
             {
                 "id": "10",
@@ -871,7 +871,7 @@ const Scenes = {
           ],
           images: [
             { id: 1, imagen: "../Entorno_cinco/Hospot1/Foto1-ave13.jpg" },
-            { id: 2, imagen: "../Entorno_cuatro/Hospot2/Foto2-ave13.jpg" },
+            { id: 2, imagen: "../Entorno_cinco/Hospot1/Foto2-ave13.jpg" },
           ],
         },
       },
